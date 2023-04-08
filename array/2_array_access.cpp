@@ -15,9 +15,6 @@ int main() {
         cout << "a[" << i << "] = " << a[i] << endl;
     }
 
-    // test out range
-    cout << "a.at(10) = " << a.at(11) << endl;
-    cout << "a[10] = " << a[10] << endl;
     // front
     cout << "a.front() = " << a.front() << endl;
 
