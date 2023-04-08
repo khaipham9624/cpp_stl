@@ -1,0 +1,27 @@
+https://en.cppreference.com/w/cpp/container/array
+Header: <array>
+- Methods:
+    Element access
+        at()
+        operator[]
+        front()
+        back()
+        data()
+    Iterators
+        begin(), cbegin()
+        end(), cend()
+        rbegin(), crbegin()
+        rend(), crend()
+    Capacity
+        empty()
+        size()
+        max_size()
+    Operations
+        fill()
+        swap()
+
+- Lưu ý:
+    Phải chỉ định size khi khởi tạo - demo?
+    Khi array có size = 0, array.begin() sẽ trùng với array.end(). front() và back() là undefined() - demo?
+    size() và max_size() trả về cùng giá trị
+    
